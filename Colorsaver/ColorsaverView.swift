@@ -83,7 +83,8 @@ class ColorsaverView: ScreenSaverView
     return newFrame
   }
 
-  private func updateTimeLabel(with time: String) {
+  private func updateTimeLabel(with time: String)
+  {
     timeLabel?.stringValue = time
   }
 
