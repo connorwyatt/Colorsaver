@@ -45,9 +45,9 @@ class ColorsaverView: ScreenSaverView
   {
     animationTimeInterval = 1.0/30.0
 
-    guard let timeField = timeLabel else { return }
+    guard let timeLabel = timeLabel else { return }
 
-    addSubview(timeField)
+    addSubview(timeLabel)
   }
 
   private func createTimeLabel(frame: NSRect, isPreview: Bool) -> NSTextField
