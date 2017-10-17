@@ -7,31 +7,98 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D848CBD01F968A3500657C64 /* ColorsaverFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D848CBC71F968A3500657C64 /* ColorsaverFramework.framework */; };
+		D848CBD51F968A3500657C64 /* DateColorExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D848CBD41F968A3500657C64 /* DateColorExtensionsTests.swift */; };
+		D848CBD71F968A3500657C64 /* ColorsaverFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D848CBC91F968A3500657C64 /* ColorsaverFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D848CBDE1F968A3F00657C64 /* Date+color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D848CB921F96753B00657C64 /* Date+color.swift */; };
+		D848CBE01F968AF500657C64 /* ColorsaverFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D848CBC71F968A3500657C64 /* ColorsaverFramework.framework */; };
 		D864402B1F955832006D8B73 /* ColorsaverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D864402A1F955832006D8B73 /* ColorsaverView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D848CBD11F968A3500657C64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D86440121F9552BD006D8B73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D848CBC61F968A3500657C64;
+			remoteInfo = ColorsaverFramework;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		D848CB921F96753B00657C64 /* Date+color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+color.swift"; sourceTree = "<group>"; };
+		D848CBC71F968A3500657C64 /* ColorsaverFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ColorsaverFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D848CBC91F968A3500657C64 /* ColorsaverFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorsaverFramework.h; sourceTree = "<group>"; };
+		D848CBCA1F968A3500657C64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D848CBCF1F968A3500657C64 /* ColorsaverFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorsaverFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D848CBD41F968A3500657C64 /* DateColorExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateColorExtensionsTests.swift; sourceTree = "<group>"; };
+		D848CBD61F968A3500657C64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D864401B1F9552BD006D8B73 /* Colorsaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Colorsaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		D86440221F9552BD006D8B73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D864402A1F955832006D8B73 /* ColorsaverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsaverView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D86440171F9552BD006D8B73 /* Frameworks */ = {
+		D848CBC31F968A3500657C64 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D848CBCC1F968A3500657C64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D848CBD01F968A3500657C64 /* ColorsaverFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D86440171F9552BD006D8B73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D848CBE01F968AF500657C64 /* ColorsaverFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D848CBC81F968A3500657C64 /* ColorsaverFramework */ = {
+			isa = PBXGroup;
+			children = (
+				D848CBC91F968A3500657C64 /* ColorsaverFramework.h */,
+				D848CB921F96753B00657C64 /* Date+color.swift */,
+				D848CBCA1F968A3500657C64 /* Info.plist */,
+			);
+			path = ColorsaverFramework;
+			sourceTree = "<group>";
+		};
+		D848CBD31F968A3500657C64 /* ColorsaverFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				D848CBD41F968A3500657C64 /* DateColorExtensionsTests.swift */,
+				D848CBD61F968A3500657C64 /* Info.plist */,
+			);
+			path = ColorsaverFrameworkTests;
+			sourceTree = "<group>";
+		};
+		D848CBDF1F968AF500657C64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D86440111F9552BD006D8B73 = {
 			isa = PBXGroup;
 			children = (
 				D864401D1F9552BD006D8B73 /* Colorsaver */,
+				D848CBC81F968A3500657C64 /* ColorsaverFramework */,
+				D848CBD31F968A3500657C64 /* ColorsaverFrameworkTests */,
 				D864401C1F9552BD006D8B73 /* Products */,
+				D848CBDF1F968AF500657C64 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -39,6 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				D864401B1F9552BD006D8B73 /* Colorsaver.saver */,
+				D848CBC71F968A3500657C64 /* ColorsaverFramework.framework */,
+				D848CBCF1F968A3500657C64 /* ColorsaverFrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,6 +124,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		D848CBC41F968A3500657C64 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D848CBD71F968A3500657C64 /* ColorsaverFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D86440181F9552BD006D8B73 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -65,6 +142,42 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		D848CBC61F968A3500657C64 /* ColorsaverFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D848CBDC1F968A3500657C64 /* Build configuration list for PBXNativeTarget "ColorsaverFramework" */;
+			buildPhases = (
+				D848CBC21F968A3500657C64 /* Sources */,
+				D848CBC31F968A3500657C64 /* Frameworks */,
+				D848CBC41F968A3500657C64 /* Headers */,
+				D848CBC51F968A3500657C64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorsaverFramework;
+			productName = ColorsaverFramework;
+			productReference = D848CBC71F968A3500657C64 /* ColorsaverFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D848CBCE1F968A3500657C64 /* ColorsaverFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D848CBDD1F968A3500657C64 /* Build configuration list for PBXNativeTarget "ColorsaverFrameworkTests" */;
+			buildPhases = (
+				D848CBCB1F968A3500657C64 /* Sources */,
+				D848CBCC1F968A3500657C64 /* Frameworks */,
+				D848CBCD1F968A3500657C64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D848CBD21F968A3500657C64 /* PBXTargetDependency */,
+			);
+			name = ColorsaverFrameworkTests;
+			productName = ColorsaverFrameworkTests;
+			productReference = D848CBCF1F968A3500657C64 /* ColorsaverFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		D864401A1F9552BD006D8B73 /* Colorsaver */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D86440251F9552BD006D8B73 /* Build configuration list for PBXNativeTarget "Colorsaver" */;
@@ -89,9 +202,18 @@
 		D86440121F9552BD006D8B73 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Connor Wyatt";
 				TargetAttributes = {
+					D848CBC61F968A3500657C64 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					D848CBCE1F968A3500657C64 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
 					D864401A1F9552BD006D8B73 = {
 						CreatedOnToolsVersion = 9.0;
 						LastSwiftMigration = 0900;
@@ -112,11 +234,27 @@
 			projectRoot = "";
 			targets = (
 				D864401A1F9552BD006D8B73 /* Colorsaver */,
+				D848CBC61F968A3500657C64 /* ColorsaverFramework */,
+				D848CBCE1F968A3500657C64 /* ColorsaverFrameworkTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D848CBC51F968A3500657C64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D848CBCD1F968A3500657C64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D86440191F9552BD006D8B73 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -127,6 +265,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D848CBC21F968A3500657C64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D848CBDE1F968A3F00657C64 /* Date+color.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D848CBCB1F968A3500657C64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D848CBD51F968A3500657C64 /* DateColorExtensionsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D86440161F9552BD006D8B73 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -137,7 +291,97 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		D848CBD21F968A3500657C64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D848CBC61F968A3500657C64 /* ColorsaverFramework */;
+			targetProxy = D848CBD11F968A3500657C64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		D848CBD81F968A3500657C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = ColorsaverFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.connorwyatt.ColorsaverFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D848CBD91F968A3500657C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = ColorsaverFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.connorwyatt.ColorsaverFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D848CBDA1F968A3500657C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ColorsaverFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.connorwyatt.ColorsaverFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		D848CBDB1F968A3500657C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ColorsaverFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.connorwyatt.ColorsaverFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
 		D86440231F9552BD006D8B73 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -283,6 +527,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D848CBDC1F968A3500657C64 /* Build configuration list for PBXNativeTarget "ColorsaverFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D848CBD81F968A3500657C64 /* Debug */,
+				D848CBD91F968A3500657C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D848CBDD1F968A3500657C64 /* Build configuration list for PBXNativeTarget "ColorsaverFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D848CBDA1F968A3500657C64 /* Debug */,
+				D848CBDB1F968A3500657C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D86440151F9552BD006D8B73 /* Build configuration list for PBXProject "Colorsaver" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
