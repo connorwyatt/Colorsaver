@@ -13,6 +13,7 @@
 		D848CBDE1F968A3F00657C64 /* Date+color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D848CB921F96753B00657C64 /* Date+color.swift */; };
 		D848CBE01F968AF500657C64 /* ColorsaverFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D848CBC71F968A3500657C64 /* ColorsaverFramework.framework */; };
 		D864402B1F955832006D8B73 /* ColorsaverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D864402A1F955832006D8B73 /* ColorsaverView.swift */; };
+		D8EC3E751F974B3E00C462BE /* HexClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EC3E741F974B3E00C462BE /* HexClock.swift */; };
 		D8EC3E771F97577100C462BE /* ColorsaverFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D848CBC71F968A3500657C64 /* ColorsaverFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		D864401B1F9552BD006D8B73 /* Colorsaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Colorsaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		D86440221F9552BD006D8B73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D864402A1F955832006D8B73 /* ColorsaverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsaverView.swift; sourceTree = "<group>"; };
+		D8EC3E741F974B3E00C462BE /* HexClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexClock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		D848CBC81F968A3500657C64 /* ColorsaverFramework */ = {
 			isa = PBXGroup;
 			children = (
+				D8EC3E731F974AF500C462BE /* Views */,
 				D848CBC91F968A3500657C64 /* ColorsaverFramework.h */,
 				D848CB921F96753B00657C64 /* Date+color.swift */,
 				D848CBCA1F968A3500657C64 /* Info.plist */,
@@ -133,6 +136,14 @@
 				D86440221F9552BD006D8B73 /* Info.plist */,
 			);
 			path = Colorsaver;
+			sourceTree = "<group>";
+		};
+		D8EC3E731F974AF500C462BE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D8EC3E741F974B3E00C462BE /* HexClock.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8EC3E751F974B3E00C462BE /* HexClock.swift in Sources */,
 				D848CBDE1F968A3F00657C64 /* Date+color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
