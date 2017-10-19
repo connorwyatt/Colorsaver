@@ -3,6 +3,23 @@ import Foundation
 public class HexClock: NSView
 {
 
+  var clock: Clock!
+  var time: Date?
+  {
+    didSet
+    {
+      guard let time = time else { return }
+
+      clock.time = time
+
+      NSLog(time.color.description)
+
+      layer?.backgroundColor = time.color.cgColor
+
+      setNeedsDisplay(frame)
+    }
+  }
+
   public required init?(coder decoder: NSCoder)
   {
     super.init(coder: decoder)
@@ -17,20 +34,24 @@ public class HexClock: NSView
     initialize()
   }
 
-  public override func draw(_ dirtyRect: NSRect)
-  {
-    super.draw(dirtyRect)
-
-    layer?.backgroundColor = Date().color.cgColor
-
-    DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-      self.setNeedsDisplay(self.frame)
-    }
-  }
-
   private func initialize()
   {
     wantsLayer = true
+
+    clock = Clock(frame: frame)
+
+    addSubview(clock)
+
+    updateTime()
+  }
+
+  private func updateTime()
+  {
+    time = Date()
+
+    DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+      self.updateTime()
+    }
   }
 
 }
