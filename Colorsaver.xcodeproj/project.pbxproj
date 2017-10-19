@@ -12,6 +12,7 @@
 		D848CBD71F968A3500657C64 /* ColorsaverFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D848CBC91F968A3500657C64 /* ColorsaverFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D848CBDE1F968A3F00657C64 /* Date+color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D848CB921F96753B00657C64 /* Date+color.swift */; };
 		D848CBE01F968AF500657C64 /* ColorsaverFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D848CBC71F968A3500657C64 /* ColorsaverFramework.framework */; };
+		D85FBB221F97D94000F3ECCB /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85FBB211F97D94000F3ECCB /* Clock.swift */; };
 		D85FBB261F98266800F3ECCB /* NSColor+hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85FBB251F98266800F3ECCB /* NSColor+hex.swift */; };
 		D85FBB291F9828D400F3ECCB /* NSColorHexExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85FBB281F9828D400F3ECCB /* NSColorHexExtensionsTests.swift */; };
 		D864402B1F955832006D8B73 /* ColorsaverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D864402A1F955832006D8B73 /* ColorsaverView.swift */; };
@@ -50,6 +51,7 @@
 		D848CBCF1F968A3500657C64 /* ColorsaverFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorsaverFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D848CBD41F968A3500657C64 /* DateColorExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateColorExtensionsTests.swift; sourceTree = "<group>"; };
 		D848CBD61F968A3500657C64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D85FBB211F97D94000F3ECCB /* Clock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
 		D85FBB251F98266800F3ECCB /* NSColor+hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSColor+hex.swift"; sourceTree = "<group>"; };
 		D85FBB281F9828D400F3ECCB /* NSColorHexExtensionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSColorHexExtensionsTests.swift; sourceTree = "<group>"; };
 		D864401B1F9552BD006D8B73 /* Colorsaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Colorsaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -147,6 +149,7 @@
 		D8EC3E731F974AF500C462BE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D85FBB211F97D94000F3ECCB /* Clock.swift */,
 				D8EC3E741F974B3E00C462BE /* HexClock.swift */,
 			);
 			path = Views;
@@ -301,6 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D85FBB221F97D94000F3ECCB /* Clock.swift in Sources */,
 				D85FBB261F98266800F3ECCB /* NSColor+hex.swift in Sources */,
 				D8EC3E751F974B3E00C462BE /* HexClock.swift in Sources */,
 				D848CBDE1F968A3F00657C64 /* Date+color.swift in Sources */,
